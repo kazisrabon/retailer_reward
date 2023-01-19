@@ -26,13 +26,13 @@ This will start the application into `localhost:9323` port.
 This project is also configured for MySQL Database. And I use `Expense_Tbl` to store and retrieve information
 
 ## Functionalities
-###APIs 
+### APIs 
 Base path is: `localhost:9323/api/v1`
 1. Save expense/s: `localhost:9323/api/v1/expense/addExpense` and `localhost:9323/api/v1/expense/addExpenses` 
 2. Get all reward points for a user: `localhost:9323/api/v1/reward/total?userId=xyz`
 3. Get all reward points for a user for a specific month: `localhost:9323/api/v1/reward/month?userId=xyz&month=pqr`
 
-###Tests
+### Tests
 I have written three test cases:
 1. to check if save is working properly
 2. to check if we are getting reward points for each user combined or separate month
